@@ -1,0 +1,287 @@
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-right: 20px solid  white;
+    border-bottom: 10px solid  white;
+    float: left;
+  }
+  
+  #posisi{
+    padding-left: 50px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .masuk{
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #4d4d4d;
+    border:3px solid #4d4d4d ;
+    font-family: serif;
+    font-weight: bold;
+    left: 700px;
+    padding: 10px 50px;
+    bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .masuk:hover{
+    text-decoration: none;
+    background-color: #333333;
+  }
+  
+  .berlangganan{
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: red;
+    border:3px solid red ;
+    font-weight: bold;
+    padding: 10px 50px;
+    bottom: 20px;
+    margin-left: -0px;
+    margin-right: 39.5px;
+  }
+  
+  .daftarakun{
+    text-align: right;
+    position: sticky;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    padding-left: 493px;
+    bottom: 20px;
+  }
+  
+  .dropbtn {
+    color: black;
+    background-color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 0px none;
+  }
+  
+  .dropdown {
+    color: black;
+    position: relative;
+    display: inline-block;
+    padding-left: 10px;
+  }
+  
+  .dropdown-content {
+    color: black;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .chandra{
+    text-decoration: none;
+    font-family:sans-serif;
+    color: black;
+  }
+  
+  .chandra:hover{
+    text-decoration: none;
+    border-top: 4px red;
+  }
+  
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .chandra1{
+    position: relative;
+    text-align: left;
+    top: 100px;
+    font-size: 19px;
+    letter-spacing: 1px;
+    left: 60px;
+    z-index: -1;
+    font-weight: bold;
+    color: red;
+    font-family: sans-serif;
+}
+
+.chandra2{
+  position: relative;
+  text-align: left;
+  top: 130px;
+  font-size: 50px;
+  left: 60px;
+  z-index: -1;
+  color: black;
+  font-family: sans-serif;
+}
+
+.chandra3{
+  z-index: -1;
+  position: relative;
+  top: 170px;
+  left: 60px;
+  width: 25%;
+  font-family: serif;
+}
+
+.chandra4{
+  z-index: -1;
+  position: relative;
+  top: 200px;
+  color: rgb(223, 32, 32);
+  text-decoration: none;
+  left: 60px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.chandra4:hover{
+    text-decoration: underline;
+    color: rgb(153, 20, 20);
+}
+
+.berlangganan2{
+  position: relative;
+  z-index: -1;
+  top: 250px;
+  left: 60px;
+  text-decoration: none;
+  color: white;
+  border-style: solid;
+  border-radius: 20px;
+  background-color: red;
+  border:3px solid red ;
+  font-weight: bold;
+  padding: 10px 70px;
+  padding-bottom: 10px;
+  margin-left: -0px;
+  margin-right: 20px;
+}
+.itt{
+    position: relative;
+    z-index: -1;
+    top: 450px;
+    left: 100px;
+  }
+  
+  .internet{
+    font-family: sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    border-right: 1px black;
+  }
+  
+  .internet2{
+    font-family: sans-serif;
+    z-index: -1;
+    position: relative;
+    font-size: 1em;
+    top: 20px;
+    right: 60px;
+    text-align: left;
+  }
+  
+  .tv{
+    position: relative;
+    left: 440px;
+    z-index: -1;
+    bottom: 65px;
+    font-family: sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  .tv2{
+    position: relative;
+    left: 190px;
+    text-align: center;
+    z-index: -1;
+    bottom: 45px;
+    font-family: sans-serif;
+  }
+  
+  .Telepon{
+    position: relative;
+    left: 790px;
+    z-index: -1;
+    bottom: 150px;
+    font-family: sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  .Telepon2{
+    position: relative;
+    left: 600px;
+    text-align: center;
+    z-index: -1;
+    bottom: 130px;
+    font-family: sans-serif;
+  }
+  
+  .imginternet{
+    position: relative;
+    z-index: -1;
+    bottom: 130px;
+    right: 70px;
+  }
+  
+  .imgtv{
+    position: relative;
+    z-index: -1;
+    bottom: 350px;
+    left: 300px;
+  }
+  
+  .imgTelepon{
+    position: relative;
+    z-index: -1;
+    bottom: 330px;
+    left: 390px;
+  }
+  
+  .info{
+    position: relative;
+    z-index: -1;
+    color: red;
+    text-decoration: none;
+    font-family: sans-serif;
+    right: 600px;
+    bottom: 200px;
+  }
+  
+  .info2{
+    position: relative;
+    z-index: -1;
+    color: red;
+    text-decoration: none;
+    font-family: sans-serif;
+    right: 320px;
+    bottom: 200px;
+  }
+  
+  .info3{
+    position: relative;
+    z-index: -1;
+    color: red;
+    text-decoration: none;
+    font-family: sans-serif;
+    bottom: 200px;
+  }
