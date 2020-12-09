@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contact_us.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="sticky" id="posisi" >
+    <img src="logo indihome.png" style="padding-left: 20px;" alt="indihome" width="150" height="45">
+    <a class="daftarakun" style="color: red;" href="www.unai.edu">Daftar Akun</a>
+    <a class="masuk" href="contact_us.html">contack us</a>
+    <a class="berlangganan" href="biodata.html">biodata</a>
+    <br>
+    <div class="dropdown" style="margin-top: 20px;">
+      <a href="ujicoba.html" class="chandra">Home</a>
+    </div>
+    <div class="dropdown" style="margin-top: 20px;">
+      <button class="dropbtn" class="chandra">Produk &#9660;</button>
+      <div class="dropdown-content">
+        <a href="#">Internet</a>
+        <a href="#">TV</a>
+        <a href="telepon_indihome.html">Telepon</a>
+        <a href="#">Paket</a>
+        <a href="#">Add-On</a>
+        <a href="#">Produk Lainnya</a>
+        <a href="tentang_indihome.html">Tentang IndoHome</a>
+        <a href="#">Tentang MyIndihome</a>
+      </div>
+    </div>
+    <div class="dropdown" style="margin-top: 20px;">
+      <button class="dropbtn" class="chandra">Program &#9660;</button>
+      <div class="dropdown-content">
+        <a href="#">Paket&Promo</a>
+        <a href="#">Loyality</a>
+        <a href="#">Kupon Undian</a>
+      </div>
+    </div>
+    <div class="dropdown" style="margin-top: 20px;">
+      <a href="#" class="chandra">Bantuan</a>
+    </div>
+    <div class="dropdown" style="margin-top: 20px;">
+      <a href="#" class="chandra">Berita</a>
+    </div>
+
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname">
+    <label for="email">email</label>
+    <input type="email" id="email" name="email">
+    <label for="uname">username</label>
+    <input type="text" id="uname" name="uname">
+    <label for="pw">password</label>
+    <input type="password" id="pw" name="pw">
+    <label for="jns_kelamin">Jenis Kelamin : </label><br>
+    <input type="radio" name="jns_kelamin" value="laki-laki" checked><label>Laki-Laki</label>
+    <input type="radio" name="jns_kelamin" value="perempuan"><label>Perempuan</label><br>
+    <br><label for="agama">Agama : </label><br>
+    <select name="agama">
+    <option value="kristen protestan" >Kristen Protestan</option>
+    <option value="Islam">Islam</option>
+    <option value="Budha">Budha</option>
+    <option value="Konghucu">Konghucu</option>                   
+    </select>
+    <br><br><label for="alamat">Alamat : </label><br>
+    <textarea rows="0" cols="100" name="alamat"></textarea>
+    <br><br><label for="hobi">Hobi : </label><br>
+                <input type="checkbox" name="hobi" value="belajar"><label>Belajar</label>
+                <input type="checkbox" name="hobi" value="olahraga"><label>olahraga</label>
+                <input type="checkbox" name="hobi" value="bermain musik" checked><label>Bermain Musik</label>
+                <input type="checkbox" name="hobi" value="memelihara binatang"><label>Memelihara Binatang</label><br>
+                <input type="submit" value="Simpan">
+  </form>
+  
+
+  </body>
+</html>
