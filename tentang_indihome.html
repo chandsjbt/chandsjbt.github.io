@@ -1,70 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="tentang_indihome.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="tentang_indihome.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <title>Tentang Indihome</title>
 </head>
 <body>
-    <div class="sticky" id="posisi" >
-        <img src="logo indihome.png" style="padding-left: 20px;" alt="indihome" width="150" height="45">
-        <a class="daftarakun" style="color: red;" href="www.unai.edu">Daftar Akun</a>
-        <a class="masuk" href="contact_us.html">contack us</a>
-        <a class="berlangganan" href="biodata.html">biodata</a>
-        <br>
-        <div class="dropdown" style="margin-top: 20px;">
-          <a href="index.html" class="chandra">Home</a>
-        </div>
-        <div class="dropdown" style="margin-top: 20px;">
-          <button class="dropbtn" class="chandra">Produk &#9660;</button>
-          <div class="dropdown-content">
-            <a href="#">Internet</a>
-            <a href="#">TV</a>
-            <a href="telepon_indihome.html">Telepon</a>
-            <a href="#">Paket</a>
-            <a href="#">Add-On</a>
-            <a href="#">Produk Lainnya</a>
-            <a href="tentang_indihome.html">Tentang IndoHome</a>
-            <a href="#">Tentang MyIndihome</a>
+  
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-md bg-white" >
+      <div class="container">
+          <img src="logo indihome.png" style="height: 50px;">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link " href="#" id="daftar_akun" >Daftar Akun</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#" id="masuk" >Masuk</a>
+                  </li>
+              </ul>
           </div>
         </div>
-        <div class="dropdown" style="margin-top: 20px;">
-          <button class="dropbtn" class="chandra">Program &#9660;</button>
-          <div class="dropdown-content">
-            <a href="#">Paket&Promo</a>
-            <a href="#">Loyality</a>
-            <a href="#">Kupon Undian</a>
+    </nav>
+    <nav class="navbar navbar-expand-sm bg-white">
+    
+    <div class="container">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="home">Home</a>
+        </li>
+    
+        <!-- Dropdown -->
+        <li class="nav-item dropdown text-primary">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: #181515; font-weight: bold;">
+            produk
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Internet</a>
+            <a class="dropdown-item" href="#">Tv</a>
+            <a class="dropdown-item" href="#">Telephone</a>
+            <a class="dropdown-item">   </a>
+            <a class="dropdown-item">   </a>
+            <a class="dropdown-item">   </a>
+            <a class="dropdown-item" href="#">Paket</a>
+            <a class="dropdown-item" href="#">Add-on</a>
+            <a class="dropdown-item" href="#">Produk lainnya</a>
+            <a class="dropdown-item">   </a>
+            <a class="dropdown-item">   </a>
+            <a class="dropdown-item">   </a>
+            <a class="dropdown-item" href="#">Tentang IndiHome</a>
+            <a class="dropdown-item" href="#">Tentang MyIndiHome</a>
           </div>
+        </li>
+        <li class="nav-item dropdown text-primary">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: rgb(24, 21, 21); font-weight: bold;">
+            Program
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Paket & Promo</a>
+            <a class="dropdown-item" href="#">Loyalty</a>
+            <a class="dropdown-item" href="#">Kupon Undian</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tentang_indihome.html" style="color:#181515; font-weight: bold;" >Tentang IndiHome</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color:#181515; font-weight: bold;">Info</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+    </div>
+    
+    <div class="container-fluid">
+      <div class="row" >
+        <div class="col-sm-5">
+          <div class="container">
+            <p class="chandra_1">Apa itu IndiHome?</p>
+            <p class="chandra_2">Layanan digital yang menyediakan Internet, Telepon Rumah dan TV Interaktif (IndiHome TV) dengan beragam pilihan paket serta layanan tambahan yang bisa dipilih sesuai kebutuhan Anda. Saat ini, jaringan IndiHome sudah tersebar di seluruh wilayah Indonesia, dan terus berinovasi untuk memenuhi kebutuhan internet yang lebih baik bagi masyarakat.</p>
+          </div> 
         </div>
-        <div class="dropdown" style="margin-top: 20px;">
-          <a href="#" class="chandra">Bantuan</a>
-        </div>
-        <div class="dropdown" style="margin-top: 20px;">
-          <a href="#" class="chandra">Berita</a>
+        <div class = "col-sm-7">
+          <div class="container">
+          <img src="foto keluarga indihome.jpg" style="width: 100%; height: 100%;">
         </div>
       </div>
-          <img  src="foto keluarga indihome.jpg" style="float: right;" alt="indihome" width="700" height="600">
-          <div class="chandra2">Apa itu indihome?</div>
-          <div class="chandra3">Layanan digital yang menyediakan Internet, Telepon Rumah dan TV Interaktif (IndiHome TV) dengan beragam pilihan paket serta layanan tambahan yang bisa dipilih sesuai kebutuhan Anda. Saat ini, jaringan IndiHome sudah tersebar di seluruh wilayah Indonesia, dan terus berinovasi untuk memenuhi kebutuhan internet yang lebih baik bagi masyarakat.</div>
+    </div>
+    </div>
+    <br><br><br><br>
+    <div class="container">
+      <div class= "row  mx-auto" >
+        
+        <div class="col-sm-4">
+        <h2 style="text-align: center; top: 0px;">Internet</h2>
+        <p style="text-align: center;">Akses internet broadband cepat hingga 300 Mbps.</p>
+        <img src="indihome internet.jpg" class="ITT" style="width: 270px; height: 180px;" >
+        <a href="#" class="infodetail">Info detail ></a>
+        </div>
+      
+        <div class="col-sm-4">
+          <h2 style="text-align: center; top: 0px;">TV</h2>
+        <p style="text-align: center;">Nikmati fitur menarik seperti Pause & Rewind, VoD dan lain-lain.</p>
+        <img src="tv indihome.jpg" class="ITT" style="width: 270px; height: 180px;" >
+        <a href="#" class="infodetail">Info detail ></a>
+        </div>
+        <div class="col-sm-4">
+          <h2 style="text-align: center; top: 0px;">Telephone</h2>
+        <p style="text-align: center;">Bebas nelpon hingga 1000 menit sesuai pilihan paket.</p>
+        <img src="Telepon Indihome.jpg" class="ITT" style="width: 270px; height: 180px;" >
+        <a href="#" class="infodetail">Info detail ></a>
+        </div>
+        
+      </div>
+      </div>
+      <div class="container" style="background-color: #f7f8fb; position: relative; top: 100px; ">
+        <h2>Pilihan Add-on </h2>
+        <a href="#" class="lihat_semua"> Lihat Semua</a>
+
+        <div class="container" style="position: relative; top: 70px;">
+        <div class="row" >
+        <div class="col-sm-3" style="background-color: white;">
+        <img src="icon-wifi-indihome.png" >
+        <h5>Wifi.id Seamless</h5>
+        <p class="chandra_7">Bagi Anda pelanggan IndiHome, bisa internetan di mana saja dengan jaringan Wifi.id di seluruh Indonesia</p>
+        <a href="#" class="infodetail2_2" >info detail ></a>
+        </div>
+        <div class="col-sm-3" style="background-color: white;">
+          <img src="icon-speed-indihome.png" >
+          <h5>Speed on Demand</h5>
+          <p class="chandra_7">Tambah kecepatan internet secara temporer sesuai dengan keinginan Anda.</p>
+          <a href="#" class="infodetail2">info detail ></a>
+        
+        </div>
+        <div class="col-sm-3" style="background-color: white;">
+          <img src="icon-roket-indihome.png" >
+          <h5>Upgrade Speed</h5>
+          <p class="chandra_7">Upgrade Speed internet cepat Anda secara permanen sesuai dengan kebutuhan Anda.</p>
+          <a href="#" class="infodetail2">info detail ></a>
+        </div>
+        <div class="col-sm-3" style="background-color: white;">
+          <img src="play-icon-indihome.png" >
+          <h5>Minipack IndiHome TV</h5>
+          <p class="chandra_7">Tambah beragam channel-channel favorit sesuai dengan keinginan Anda.</p>
+          <a href="#" class="infodetail2">info detail ></a>
+        </div>
+        </div>
+        </div>
+      </div>
+      
+
+      <div class="container" style="position: relative; top: 300px;">
+        <h2>Pilihan Paket IndiHome</h2>
+        <a href="#" class="lihat_semua"> Lihat Semua</a>
+        <div class= "row  mx-auto" style="position: relative; top: 100px; background-color: #f7f8fb;">
+          <div class="col-sm-4" >
+          <h2 style="top: 0px;">Reguler IndiHome 2P Internet + TV (OPSI STUDY)</h2>
+          <p style="color: rgb(162, 170, 177);">Teredia layanan internet hingga</p>
+          <h6 >20Mbps</h6>
+          <p style="color: rgb(162, 170, 177); padding-top: 20px;">TV Interaktif</p>
+          <h6>109 Channel</h6>
+          <p style="color: rgb(162, 170, 177); padding-top: 20px;">Bebas Telepon</p>
+          <h6>-</h6>
+          <p style="color: rgb(162, 170, 177); padding-top: 20px;">Benefit lainnya</p>
+          <p style="border-bottom: 1px solid rgb(162, 170, 177); padding-bottom: 44px;">Catchplay+ • IndiHome Study •</p>
+          <p style="color: rgb(162, 170, 177); padding-top: 20px;">Harga Mulai</p>
+          <h6>Rp345.000/bulan</h6>
+          <a href="#" class="mulaiberlangganan">Mulai Berlangganan</a>
+          </div>
+      
+          <div class="col-sm-4">
+            <h2 style="top: 0px;">Reguler IndiHome 2P Internet + TV (OPSI STUDY)</h2>
+            <p style="color: rgb(162, 170, 177);">Teredia layanan internet hingga</p>
+            <h6>50Mbps</h6>
+            <p style="color: rgb(162, 170, 177); padding-top: 20px;">TV Interaktif</p>
+            <h6>109 Channel</h6>
+            <p style="color: rgb(162, 170, 177); padding-top: 20px;">Bebas Telepon</p>
+            <h6>-</h6>
+            <p style="color: rgb(162, 170, 177); padding-top: 20px;">Benefit lainnya</p>
+            <p style="border-bottom: 1px solid rgb(162, 170, 177); padding-bottom: 44px;">Catchplay+ • IndiHome Study •</p>
+            <p style="color: rgb(162, 170, 177); padding-top: 20px;">Harga Mulai</p>
+            <h6>Rp560.000/bulan</h6>
+            <a href="#" class="mulaiberlangganan">Mulai Berlangganan</a>
+          </div>
+          <div class="col-sm-4">
+            <h2 style="top: 0px;">Reguler IndiHome 2P Internet + Phone (OPSI STUDY)</h2>
+            <p style="color: rgb(162, 170, 177);">Teredia layanan internet hingga</p>
+            <h6>20Mbps</h6>
+            <p style="color: rgb(162, 170, 177); padding-top: 20px;">TV Interaktif</p>
+            <h6>-</h6>
+            <p style="color: rgb(162, 170, 177); padding-top: 20px;">Bebas Telepon</p>
+            <h6>300 Menit</h6>
+            <p style="color: rgb(162, 170, 177); padding-top: 20px;">Benefit lainnya</p>
+            <p style="border-bottom: 1px solid rgb(162, 170, 177); padding-bottom: 20px;">IndiHome Study • Wifi.id Seamless • Cloud Storage 16GB •</p>
+            <p style="color: rgb(162, 170, 177); padding-top: 20px;">Harga Mulai</p>
+            <h6>Rp315.000/bulan</h6>
+            <a href="#" class="mulaiberlangganan">Mulai Berlangganan</a>
+          </div>
+        </div>
+        
+        </div>
+
+
+        <div class="container-flud" style="position: relative; top: 600px; background-color: #f7f8fb; text-align: right;">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="screenshot-device.png" style="width: 70%; height: 100%; ">
           </div>
 
-          
-          <div class="itt">
-            <div class="internet">Internet</div>
-            <div class="internet2">Akses internet cepat hingga 300Mbps.</div>
-            <div class="tv">TV</div>
-            <div class="tv2">Nikmati fitur menarik seperti Pause & Rewind,<br> VoD dan lain-lain.</div>
-            <div class="Telepon">Telepon</div>
-            <div class="Telepon2">Bebas nelpon hingga 1000 menit sesuai<br> pilihan paket.</div>
-            <img src="indihome internet.jpg" class="imginternet"  width="25%">
-            <img src="tv indihome.jpg" class="imgtv"  width="25%">
-            <img src="Telepon Indihome.jpg" class="imgTelepon"  width="25%">
-            <a href="#" class="info">Info Detail ></a>
-            <a href="#" class="info2">Info Detail ></a>
-            <a href="#" class="info3">Info Detail ></a>
-          </div>
+          <div class="col-sm-6" style="text-align: left; top: 140px;">
 
+            <img src="myindihome-logo.png">
+            <p style="font-size: 30px; padding-top: 40px;">Transaksi makin mudah<br> dalam genggaman Anda</p>
+            <a href="#" class="pelajari">pelajari MyIndiHome ></a>
+            <div class="store" style="padding-top: 40px;">
+            <img src="btn-playstore.png">
+            <img src="btn-appstore.png">
+          </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="jumbotron bg-dark" style="position: relative; top: 700px; margin-bottom: 0px;">
+          <img src="telkom-logo-white.png">
+          <a href="#" class="contact_us">Contact Us </a>
+          <a href="#" class="syarat">Syarat & Ketentuan </a>
+          <a href="#" class="announcements">Announcements</a>
+          <a href="#" class="telkom">telkom.co.id</a>
+          <p class="myindihome">Download MyIndiHome</p>
+          <div class="store2">
+          <img src="btn-appstore.png">
+          <img src="btn-playstore.png">
+        </div>
+        <p style="color: white; font-family: sans-serif; font-weight: 600;">Copyright 2020 PT Telekomunikasi Indonesia (Persero) Tbk All Right Reserved.</p>
+        <div class="sosmed">
+          <img src="fb-logo-black.png" class="fb">
+          <img src="ig-logo-black.png" class="ig">
+          <img src="twitter-logo-black.png" class="tw">
+          <img src="youtube-logo-black.png" class="yt">
+        </div>
+        </div>
 
 </body>
 </html>
