@@ -1,145 +1,164 @@
-.sticky {
-  position: sticky;
-  top: 0;
-  background-color: white;
-  border-right: 20px solid  white;
-  border-bottom: 10px solid  white;
-  float: left;
+.announcements{
+  position: absolute;
+  left: 550px;
+  color: white;
+  padding-right: 20px;
+  border-right: 1px solid white;
+  font-weight: bold;
 }
 
-#posisi{
-  padding-left: 50px;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.masuk{
+.announcements:hover{
+  color: white;
   text-decoration: none;
+}
+
+.telkom{
+  position: absolute;
+  left: 720px;
+  color: white;
+  font-weight: bold;
+  
+}
+
+.telkom:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.myindihome{
+  position: relative;
+  text-align: right;
+  bottom: 100px;
+  color: white;
+  right: 40px;
+}
+
+.store{
+  position: relative;
+  text-align: right;
+  bottom: 100px;
+}
+
+.sosmed{
+  text-align: right;
+  position: relative;
+  bottom: 60px;
+}
+
+.fb{
+  background-color: #fcf8f8;
+  border:20px solid white ;
+  border-radius: 100%;
+  ;
+}
+
+.ig{
+  background-color: #fcf8f8;
+  border:20px solid white ;
+  border-radius: 100%;
+  ;
+}
+
+.tw{
+  background-color: #fcf8f8;
+  border:23px solid white ;
+  border-radius: 100%;
+  ;
+}
+
+.yt{
+  background-color: #fcf8f8;
+  border:23px solid white ;
+  border-radius: 100%;
+  ;
+}
+
+#daftar_akun{
+  color: red;
+  font-family: serif;
+  font-weight: bold;
+}
+
+#masuk{
   color: white;
   border-style: solid;
   border-radius: 20px;
   background-color: #4d4d4d;
-  border:3px solid #4d4d4d ;
+  border:4px solid #4d4d4d ;
   font-family: serif;
   font-weight: bold;
-  left: 700px;
-  padding: 10px 50px;
-  bottom: 20px;
+  padding: 5px 50px;
   margin-left: 20px;
   margin-right: 20px;
-}
-
-.masuk:hover{
-  text-decoration: none;
-  background-color: #333333;
-}
-
-.berlangganan{
-  text-decoration: none;
-  color: white;
-  border-style: solid;
-  border-radius: 20px;
-  background-color: red;
-  border:3px solid red ;
-  font-weight: bold;
-  padding: 10px 50px;
-  bottom: 20px;
-  margin-left: -0px;
-  margin-right: 20px;
-}
-
-.daftarakun{
-  text-align: right;
-  position: sticky;
-  text-decoration: none;
-  color: red;
-  font-weight: bold;
-  padding-left: 493px;
-  bottom: 20px;
-}
-
-.dropbtn {
-  color: black;
-  background-color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: 0px none;
-}
-
-.dropdown {
-  color: black;
-  position: relative;
-  display: inline-block;
-  padding-left: 10px;
-}
-
-.dropdown-content {
-  color: black;
-  display: none;
-  position: absolute;
-  background-color: #ffffff;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.chandra{
-  text-decoration: none;
-  font-family:sans-serif;
-  color: black;
-}
-
-.chandra:hover{
-  text-decoration: none;
-  border-top: 4px red;
-}
-
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-h1{
-  position: relative;
-  top: 30px;
-  font-weight: bold;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
+}
+
+#home{
   color: red;
-  font-size: 80px;
-  z-index: -1;
+  font-weight: bold;
 }
 
-.gambar{
-  position: relative;
-  top: 60px;
-  z-index: -1;
+#bantuan :hover{
+  color: red;
 }
 
-table {
+.chandra_1{
   position: relative;
   top: 90px;
-  left: 45px;
-  border-collapse: collapse;
-  width: 100%;
-  z-index: -1;
+  left: 55px;
+  font-family: sans-serif;
+  font-size: large;
+  color: rgb(199, 17, 17);
+  font-weight: bold;
 }
 
-th, td {
-  text-align: left;
-  padding: 8px;
+.chandra_2{
+  position: relative;
+  top: 100px;
+  left: 55px;
+  font-family: sans-serif;
+  font-size: 50px;
 }
 
-tr:nth-child(even) {
-  background-color: #ee1212;
+.chandra_3{
+  position: relative;
+  top: 120px;
+  left: 55px;
+  font-family: sans-serif;
+}
+
+#chandra_4{
+  position: absolute;
+  top: 450px;
+  left: 86px;
+  color: red;
+  font-weight: bold;
+}
+
+.syarat{
+  position: absolute;
+  left: 370px;
   color: white;
+  padding-right: 20px;
+  border-right: 1px solid white;
+  font-weight: bold;
+}
+
+.syarat:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.contact_us{
+  position: absolute;
+  left: 250px;
+  color: white;
+  border-right: 1px solid white;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.contact_us:hover{
+  color: white;
+  text-decoration: none;
 }

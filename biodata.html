@@ -2,107 +2,126 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="biodata.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="biodata.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <title>Biodata</title>
 </head>
 <body>
-  
-  <div class="sticky" id="posisi" >
-    <img src="logo indihome.png" style="padding-left: 20px;" alt="indihome" width="150" height="45">
-    <a class="daftarakun" style="color: red;" href="www.unai.edu">Daftar Akun</a>
-    <a class="masuk" href="contact_us.html">contack us</a>
-    <a class="berlangganan" href="biodata.html">biodata</a>
-    <br>
-    <div class="dropdown" style="margin-top: 20px;">
-      <a href="index.html" class="chandra">Home</a>
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-md bg-white" >
+      <div class="container">
+          <img src="logo indihome.png" style="height: 50px;">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link " href="contact_us.html" id="daftar_akun" >Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="biodata.html" id="masuk" >Biodata</a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-sm bg-white">
+    
+    <div class="container" style="text-align: left;">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" id="home">Home</a>
+        </li>
+    
+        <!-- Dropdown -->
+        <li class="nav-item dropdown text-primary">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: #181515; font-weight: bold;">
+            produk
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Internet</a>
+            <a class="dropdown-item" href="#">Tv</a>
+            <a class="dropdown-item" href="#">Telephone</a>
+            <a class="dropdown-item">   </a>
+            <a class="dropdown-item">   </a>
+            <a class="dropdown-item">   </a>
+            <a class="dropdown-item" href="#">Paket</a>
+            <a class="dropdown-item" href="#">Add-on</a>
+            <a class="dropdown-item" href="#">Produk lainnya</a>
+            <a class="dropdown-item">   </a>
+            <a class="dropdown-item">   </a>
+            <a class="dropdown-item">   </a>
+            <a class="dropdown-item" href="#">Tentang IndiHome</a>
+            <a class="dropdown-item" href="#">Tentang MyIndiHome</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown text-primary">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: rgb(24, 21, 21); font-weight: bold;">
+            Program
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Paket & Promo</a>
+            <a class="dropdown-item" href="#">Loyalty</a>
+            <a class="dropdown-item" href="#">Kupon Undian</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tentang_indihome.html" style="color:#181515; font-weight: bold;" >Tentang IndiHome</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color:#181515; font-weight: bold;">Info</a>
+        </li>
+      </ul>
     </div>
-    <div class="dropdown" style="margin-top: 20px;">
-      <button class="dropbtn" class="chandra">Produk &#9660;</button>
-      <div class="dropdown-content">
-        <a href="#">Internet</a>
-        <a href="#">TV</a>
-        <a href="telepon_indihome.html">Telepon</a>
-        <a href="#">Paket</a>
-        <a href="#">Add-On</a>
-        <a href="#">Produk Lainnya</a>
-        <a href="tentang_indihome.html">Tentang IndoHome</a>
-        <a href="#">Tentang MyIndihome</a>
+    </nav>
+    </div> 
+
+    <div class="container">
+      <h2 style="top: 0px; text-align: center;">BIODATA</h2>
+      <div class="card" style="width:400px">
+        <img class="card-img-top" src="20200228_134303.jpg" alt="Card image" style="width:100% ;">
+        <div class="card-body">
+          <h4 class="card-title">Chandra Oliver Sijabat</h4>
+          <p class="card-text">Perkenalkan Nama Saya <strong>Chandra Oliver Sijabat</strong> <br> Biasa Di Panggil : Chandra <br>
+          Tanggal Lahir   : 15 Januari 2001 <br>
+          Asal            : Bekasi, Jawa Barat <br>
+          Hobby : Main Game , Ngoding, Main Basket <br>
+          </p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
       </div>
-    </div>
-    <div class="dropdown" style="margin-top: 20px;">
-      <button class="dropbtn" class="chandra">Program &#9660;</button>
-      <div class="dropdown-content">
-        <a href="#">Paket&Promo</a>
-        <a href="#">Loyality</a>
-        <a href="#">Kupon Undian</a>
-      </div>
-    </div>
-    <div class="dropdown" style="margin-top: 20px;">
-      <a href="#" class="chandra">Bantuan</a>
-    </div>
-    <div class="dropdown" style="margin-top: 20px;">
-      <a href="#" class="chandra">Berita</a>
+      <br>
+      
+      
     </div>
 
-  <h1>BIODATA</h1>
-
-  <img  src="chandra.jpg" class="gambar" style="padding-left: 60px;" alt="indihome" width="300" height="200">
-
-  <table>
-    <tr>
-      <th>NAMA LENGKAP</th>
-      <td>Chandra Oliver sijabat</td>
-    </tr>
-    <tr>
-      <th>TEMPAT DAN TANGGAL LAHIR</th>
-      <td>Bekasi, 15 Januari 2001</td>
-    </tr>
-    <tr>
-      <th>JENIS KELAMIN</th>
-      <td>Laki-laki</td>
-    </tr>
-    <tr>
-      <th>GOLONGAN DARAH</th>
-      <td>O</td>
-    </tr>
-    <tr>
-      <th>ALAMAT</th>
-      <td>Perumahan Kota Serang Baru, Blok B2 NO 10. Serang Baru, Jawa Barat</td>
-    </tr>
-    <tr>
-      <th>AGAMA</th>
-      <td>Kristen Advent</td>
-    </tr>
-    <tr>
-      <th>HOBI</th>
-      <td>Bermain Game Online Dan Bermain Basket</td>
-    </tr>
-    <tr>
-      <th>STATUS PERKAWINAN</th>
-      <td>Belum Menikah</td>
-    </tr>
-    <tr>
-      <th>PEKERJAAN</th>
-      <td>Mahasiswa</td>
-    </tr>
-    <tr>
-      <th>KEWARGANEGARAAN</th>
-      <td>INDONESIA</td>
-    </tr>
-    <tr>
-      <th>RIWAYAT PENDIDIKAN</th>
-      <td>TK Arivananda
-       <br> SDN Sukaragam 02
-       <br> SMPN 03 Cibarusah
-       <br> SMK Farmasi Bintang Harapan
-      </td>
-    </tr>
-    <tr>
-      <th>PERGURUAN TINGGI</th>
-      <td>Universitas Advent Indonesia</td>
-      </tr>
-  </table>
-
+    <div class="jumbotron bg-dark">
+      <img src="telkom-logo-white.png">
+      <a href="#" class="contact_us">Contact Us </a>
+      <a href="#" class="syarat">Syarat & Ketentuan </a>
+      <a href="#" class="announcements">Announcements</a>
+      <a href="#" class="telkom">telkom.co.id</a>
+      <p class="myindihome">Download MyIndiHome</p>
+      <div class="store">
+      <img src="btn-appstore.png">
+      <img src="btn-playstore.png">
+    </div>
+    <p style="color: white; font-family: sans-serif; font-weight: 600;">Copyright 2020 PT Telekomunikasi Indonesia (Persero) Tbk All Right Reserved.</p>
+    <div class="sosmed">
+      <img src="fb-logo-black.png" class="fb">
+      <img src="ig-logo-black.png" class="ig">
+      <img src="twitter-logo-black.png" class="tw">
+      <img src="youtube-logo-black.png" class="yt">
+    </div>
+    </div>
 </body>
 </html>
