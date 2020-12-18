@@ -1,0 +1,174 @@
+#daftar_akun{
+    color: red;
+    font-family: serif;
+    font-weight: bold;
+  }
+  
+  #masuk{
+    color: white;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #4d4d4d;
+    border:4px solid #4d4d4d ;
+    font-family: serif;
+    font-weight: bold;
+    padding: 5px 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  #home{
+    color: red;
+    font-weight: bold;
+  }
+  
+  #bantuan :hover{
+    color: red;
+  }
+  
+  .chandra_1{
+    position: relative;
+    top: 90px;
+    left: 55px;
+    font-family: sans-serif;
+    font-size: large;
+    color: rgb(199, 17, 17);
+    font-weight: bold;
+  }
+  
+  .chandra_2{
+    position: relative;
+    top: 100px;
+    left: 55px;
+    font-family: sans-serif;
+    font-size: 50px;
+  }
+  
+  .chandra_3{
+    position: relative;
+    top: 120px;
+    left: 55px;
+    font-family: sans-serif;
+  }
+  
+  #chandra_4{
+    position: absolute;
+    top: 450px;
+    left: 86px;
+    color: red;
+    font-weight: bold;
+  }
+
+  .contact_us{
+    position: absolute;
+    left: 250px;
+    color: white;
+    border-right: 1px solid white;
+    padding-right: 20px;
+    font-weight: bold;
+  }
+  
+  .contact_us:hover{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .syarat{
+    position: absolute;
+    left: 370px;
+    color: white;
+    padding-right: 20px;
+    border-right: 1px solid white;
+    font-weight: bold;
+  }
+  
+  .syarat:hover{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .announcements{
+    position: absolute;
+    left: 550px;
+    color: white;
+    padding-right: 20px;
+    border-right: 1px solid white;
+    font-weight: bold;
+  }
+  
+  .announcements:hover{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .telkom{
+    position: absolute;
+    left: 720px;
+    color: white;
+    font-weight: bold;
+    
+  }
+  
+  .telkom:hover{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .myindihome{
+    position: relative;
+    text-align: right;
+    bottom: 100px;
+    color: white;
+    right: 40px;
+  }
+  
+  .store{
+    position: relative;
+    text-align: right;
+    bottom: 100px;
+  }
+  
+  .sosmed{
+    text-align: right;
+    position: relative;
+    bottom: 60px;
+  }
+  
+  .fb{
+    background-color: #fcf8f8;
+    border:20px solid white ;
+    border-radius: 100%;
+    ;
+  }
+  
+  .ig{
+    background-color: #fcf8f8;
+    border:20px solid white ;
+    border-radius: 100%;
+    ;
+  }
+  
+  .tw{
+    background-color: #fcf8f8;
+    border:23px solid white ;
+    border-radius: 100%;
+    ;
+  }
+  
+  .yt{
+    background-color: #fcf8f8;
+    border:23px solid white ;
+    border-radius: 100%;
+    ;
+  }
+
+  .berita1{
+      color: black;
+      font-family: sans-serif;
+      font-weight: 600;
+  }
+
+  .berita1:hover{
+      color: black;
+  }
